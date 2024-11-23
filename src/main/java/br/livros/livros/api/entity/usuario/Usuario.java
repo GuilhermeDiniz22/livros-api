@@ -1,6 +1,7 @@
 package br.livros.livros.api.entity.usuario;
 
 import br.livros.livros.api.entity.endereco.Endereco;
+import br.livros.livros.api.entity.pedidoItem.PedidoItem;
 import br.livros.livros.api.enums.userRole.UserRole;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
@@ -10,6 +11,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Data
 @Entity
